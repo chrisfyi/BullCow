@@ -17,6 +17,8 @@ class BULLCOWGAME_API UBullCowCartridge : public UCartridge
 	void SetupGame();
 	void EndGame();
 	void CheckPlayerGuess(FString Guess);
+	bool IsIsogram(FString Word) const;
+	TArray<FString> GetValidWords(TArray<FString>) const;
 	
 
 	// Your declarations go below!
